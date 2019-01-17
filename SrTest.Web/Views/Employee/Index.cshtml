@@ -1,0 +1,12 @@
+﻿@model IEnumerable<SrTest.Web.Models.Employee>
+
+@{
+    ViewBag.Title = "Employees";
+}
+
+<h2>Employees</h2>
+
+<div id="TbEmployees"> 
+        @Html.Partial("EmployeesPartial",Model)
+</div>
+
